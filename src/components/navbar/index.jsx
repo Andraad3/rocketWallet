@@ -19,6 +19,7 @@ export function NavBar() {
                     <Button color={'#da8bef'} variant='ghost'>Ações</Button>
                     <Button color={'#da8bef'} variant='ghost'>Fundos Imobiliários</Button>
                     <Button color={'#da8bef'} variant='ghost'>Meus Ativos</Button>
+                    <Button color={'#da8bef'} variant='ghost'>Carteira</Button>
                     <Button rightIcon={<ArrowForwardIcon />} color={'#da8bef'} variant='ghost'>Sair</Button>
                 </Stack>
             ) : (
@@ -34,6 +35,7 @@ export function NavBar() {
                         <MenuItem>Ações</MenuItem>
                         <MenuItem>Fundos Imobiliários</MenuItem>
                         <MenuItem>Meus Ativos</MenuItem>
+                        <MenuItem>Carteira</MenuItem>
                         <MenuItem icon={<ArrowForwardIcon />}>Sair</MenuItem>
                     </MenuList>
                 </Menu>
